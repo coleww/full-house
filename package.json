@@ -1,0 +1,19 @@
+{
+  "name": "full-house",
+  "description": "Put A Description Here!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify www/demo.js -o www/bundle.js",
+    "test": "standard && node test.js",
+    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "standard": "*",
+    "tape": "*",
+    "watchify": "*"
+  },
+  "license": "MIT",
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
+}
