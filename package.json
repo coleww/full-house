@@ -15,5 +15,18 @@
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "dependencies": {
     "get-object-type": "0.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/full-house.git"
+  },
+  "keywords": [
+    "resize",
+    "full-screen",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/full-house/issues"
+  },
+  "homepage": "https://github.com/coleww/full-house"
 }
