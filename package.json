@@ -15,5 +15,8 @@
     "watchify": "*"
   },
   "license": "MIT",
-  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "dependencies": {
+    "get-object-type": "0.0.1"
+  }
 }

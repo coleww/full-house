@@ -1,6 +1,6 @@
 var tap = require('tape')
-var full-house = require('./')
+var fullHouse = require('./')
 
 tap.test('does the thing',function (t) {
-
+  fullHouse
 })
