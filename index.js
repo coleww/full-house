@@ -1,7 +1,6 @@
 var typey = require('get-object-type')
 
 module.exports = function (el) {
-
   function resize () {
     switch (typey(el)) {
       case 'HTMLCollection':
