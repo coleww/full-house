@@ -12,6 +12,9 @@ module.exports = function (el) {
       case 'HTMLCanvasElement':
         el.height = window.innerHeight + 'px'
         el.width = window.innerWidth + 'px'
+        // go for the gold!
+        el.style.height = window.innerHeight + 'px'
+        el.style.width = window.innerWidth + 'px'
         break
       default:
         el.style.height = window.innerHeight + 'px'

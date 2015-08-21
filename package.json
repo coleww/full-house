@@ -1,7 +1,7 @@
 {
   "name": "full-house",
   "description": "WHERE EVERYBODY KNOWS YR NAME",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",
